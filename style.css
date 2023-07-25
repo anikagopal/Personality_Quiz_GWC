@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+h2 {
+color: hotpink;
+}
+
+h1 {
+color: mediumpurple;
+}
+
+body {
+ background-color: lightblue; 
+}
+
+image {
+max-width: 50%;
+max-height: 65%;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.container {
+display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
